@@ -1,16 +1,11 @@
-function App() {
-  const text = ''
+import NumberConverter from './components/NumberConverter';
 
+const App = () => {
   return (
     <div>
-      <input type='text' />
-      <div>
-        <p>
-          Output: {text}
-        </p>
-      </div>
+      <NumberConverter />
     </div>
   )
-}
+};
 
 export default App
